@@ -1,6 +1,6 @@
 import Fastify from "fastify";
 import { localHostConfig } from "./env/local";
-import { error, log, success } from "@mint/log";
+import { error, log, success } from "@expert-dollop/log";
 
 const { port, env, db } = localHostConfig;
 
